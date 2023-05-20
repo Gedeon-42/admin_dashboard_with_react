@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav {
+  padding: 5px 20px;
+  background-color: #212121;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+.nav-list > li {
+  padding: 16px;
+  font-size: 17px;
+  text-transform: capitalize;
+  color: white;
+}
+.nav-list > li > a {
+  text-decoration: none;
+}
+.nav-photo {
+  width: 40px;
+}
+.greeting {
+  text-align: center;
+  text-transform: capitalize;
+}
+.main {
+  padding: 20px 20px;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-column-gap: 16px;
+  grid-row-gap: 26px;
+}
+.card-container {
+  display: flex;
+  max-width: 500px;
+  padding: 7px 12px;
+}
+
+.card-photo {
+  width: 150px;
+  height: 150px;
+}
+.card-detail {
+  padding: 12px;
+}
+.card-link span {
+  padding-right: 12px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.card-date {
+  margin-top: 20px;
+}
+.card-date span {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+.card-date p {
+  font-size: 16px;
+  font-weight: 500;
+}
+header {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+  color: white;
+  padding: 2px 20px;
+}
+.headre-desc {
+  margin-left: auto;
+}
+main {
+  padding: 20px;
+}
+.form {
+  display: grid;
+  grid-template: 40px 40px/1fr 1fr;
+  gap: 20px;
+}
+.form > input {
+  text-indent: 10px;
+}
+.form-button {
+  grid-column: 1/-1;
+  background-color: purple;
+  border: none;
+  cursor: pointer;
+}
+.image-card {
+  border: 1px solid black;
+  max-width: 400px;
+  padding: 12px 20px;
+}
+.favourite {
+  width: 50px;
+}
+.randomImg {
+  width: 50%;
+  height: 400px;
+  margin-left: 20%;
+  margin-top: 20px;
+}

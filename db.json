@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "title": "body builder",
+      "description": "lorem ipsum doresamnt",
+      "day": "wednesday",
+      "reminder": true,
+      "id": 1
+    },
+    {
+      "title": "web developer",
+      "description": "lorem ipsum doresamnt we can motivate more and many income",
+      "day": "tuesday",
+      "reminder": true,
+      "id": 2
+    }
+  ]
+}

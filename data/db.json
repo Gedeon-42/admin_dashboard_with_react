@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "titte": "software developer",
+      "description": "lorem ipsum doresamnt we are abl to facilitate all level of income in society so be carefully wen yo are able to communicate in some of incomin call in society"
+    },
+    {
+      "id": 2,
+      "titte": "web developer",
+      "description": "lorem ipsum doresamnt we are abl to facilitate all level of income in society so be carefully wen yo are able to communicate in some of incomin call in society"
+    }
+  ]
+}

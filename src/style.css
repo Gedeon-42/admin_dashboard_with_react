@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: azure;
+}
+.top-header {
+  position: sticky;
+  background: purple;
+}
+.menubar {
+  color: white;
+}
+
+.sidebar {
+  background: #080808;
+  position: fixed;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+}
+.navtitle {
+  color: white;
+}
+.container {
+  margin: 20px 30px;
+  padding: 12px 30px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 20px;
+}
+.btn-add {
+  background: mediumseagreen;
+  color: white;
+  padding: 7px;
+  border: 0;
+  outline: 0;
+  border-radius: 4px;
+}
+.btn-delete {
+  background: #ff004f;
+  color: white;
+  margin: 3px;
+  padding: 3px 5px;
+  outline: 0;
+  border: 0;
+}
+h1 {
+  font-size: 22px;
+  text-transform: capitalize;
+}
+.task {
+  border: 1px solid lightgray;
+  margin-bottom: 2px;
+  position: relative;
+}
+.fatimes {
+  color: #ff004f;
+  position: absolute;
+  right: 3px;
+  top: 0;
+}
+.task.reminder {
+  border-left: 3px solid green;
+}
+.task.noreminder {
+  border-left: 3px solid #ff004f;
+}
+.add-task {
+  height: 80vh;
+}
+.form-container {
+  margin: 20px 400px;
+  width: 400px;
+  background-color: white;
+  border-radius: 7px;
+  border: 1px solid gray;
+}
+.add-form {
+  margin: 12px;
+  padding: 12px;
+}
+.add-form > input {
+  width: 300px;
+  margin: 12px 30px;
+  padding: 8px;
+}
+.add-form > textarea {
+  width: 300px;
+  height: 150px;
+  margin-left: 30px;
+}
+.add-form > label {
+  margin-left: 30px;
+  text-transform: capitalize;
+  font-size: 18px;
+}
+.add-form > button {
+  width: 300px;
+  margin-left: 30px;
+  background: #080808;
+  color: white;
+  padding: 7px;
+  outline: 0;
+  border: 0;
+}
